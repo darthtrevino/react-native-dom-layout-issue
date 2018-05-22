@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"jsx": "react-native",
+		"outDir": "lib",
+		"strict": true,
+		// <Note -> this allows imports from untyped Javascript projects>
+		"declaration": false,
+		"allowJs": true,
+		"noImplicitAny": false,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		// </Note>
+		"lib": ["es2017", "dom", "esnext"],
+	},
+	"files": ["src/index.ts"]
+}
